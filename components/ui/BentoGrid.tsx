@@ -1,9 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-// Remplacer react-lottie par lottie-react
-import { useLottie } from "lottie-react";
+import dynamic from "next/dynamic";
 
 import { cn } from "@/lib/utils";
 
@@ -11,6 +10,9 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+
+// Importation dynamique du composant Lottie par défaut
+const LottieComponent = dynamic(() => import("lottie-react"), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -54,15 +56,12 @@ export const BentoGridItem = ({
   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
-  // Nouveau style pour lottie-react
-  const confettiOptions = {
-    animationData: animationData,
-    loop: copied,
-    autoplay: copied,
-  };
-
-  const { View: ConfettiAnimation } = useLottie(confettiOptions);
+  // S'assurer que le composant est monté côté client
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const handleCopy = () => {
     const text = "hsu@jsmastery.pro";
@@ -159,13 +158,18 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
-                }`}
+                className="absolute -bottom-5 right-0"
                 style={{ height: "200px", width: "400px" }}
               >
-                {/* Nouveau composant d'animation */}
-                {copied && ConfettiAnimation}
+                {/* Rendu conditionnel basé sur l'état monté et copied */}
+                {isMounted && copied && (
+                  <LottieComponent
+                    animationData={animationData}
+                    loop={true}
+                    autoplay={true}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                )}
               </div>
 
               <MagicButton
