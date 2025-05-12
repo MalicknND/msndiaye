@@ -16,7 +16,7 @@ export const Navbar = ({
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo ou nom du site */}
         <Link href="/" className="text-white text-xl font-bold tracking-wide">
-          MyPortfolio
+          MSN
         </Link>
         <div className="flex items-center space-x-6">
           {navItems.map((item, idx) => (
