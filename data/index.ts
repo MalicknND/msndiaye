@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
+    name: "Vincent ZERBIB",
+    title: "Web Developer Full Stack",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J’ai eu l’occasion de travailler avec Malick sur de nombreux projets lors de nos études. Il m’a marqué par sa rigueur et son enthousiasme. Il sait s’adapter à toutes situations et apprend vite.C’est une personne avec laquelle il est facile de collaborer, il sait exprimer ses idées et n’hésite pas à les partager. Il met un point d’honneur à délivrer du travail de qualité. Je recommande 👍",
+    name: "Sven DOCKX",
+    title: "Software Engineer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
+    name: "Vincent ZERBIB",
+    title: "Web Developer Full Stack",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J’ai eu l’occasion de travailler avec Malick sur de nombreux projets lors de nos études. Il m’a marqué par sa rigueur et son enthousiasme. Il sait s’adapter à toutes situations et apprend vite.C’est une personne avec laquelle il est facile de collaborer, il sait exprimer ses idées et n’hésite pas à les partager. Il met un point d’honneur à délivrer du travail de qualité. Je recommande 👍",
+    name: "Sven DOCKX",
+    title: "Software Engineer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
+    name: "Vincent ZERBIB",
+    title: "Web Developer Full Stack",
   },
 ];
 
