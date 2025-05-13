@@ -224,4 +224,9 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/msnd/", // Lien vers LinkedIn
   },
+  {
+    id: 4,
+    img: "/credly.svg",
+    link: "https://www.credly.com/users/msn", // Lien vers LinkedIn
+  },
 ];
