@@ -10,12 +10,14 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { Navbar } from "@/components/ui/Navbar";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 pt-24">
-      <Navbar navItems={navItems} />
+      {/* <Navbar navItems={navItems} /> */}
       <div className="max-w-7xl w-full pt-36">
+         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         <RecentProjects />
