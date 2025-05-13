@@ -70,6 +70,14 @@ export const gridItems = [
 ];
 export const projects = [
   {
+    id: 5,
+    title: "NextJS Dashboard",
+    des: "A dashboard with a modern design, built with Next.js, Shadcn UI and Tailwind CSS.",
+    img: "/dashboard.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://nextjs-dashboard-with-shadcn.vercel.app/",
+  },
+  {
     id: 1,
     title: "Booking Project",
     des: "A booking app that allows users to book their favorite destinations. For more information about the project, click the link below.",
