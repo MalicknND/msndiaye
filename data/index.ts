@@ -114,33 +114,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
+      "J’ai eu le privilège de collaborer avec Malick et il s’est constamment distingué par sa rigueur, son enthousiasme et son engagement dans chacun des projets. Doté d’une remarquable capacité d’adaptation et d’un esprit d’apprentissage rapide, Malick fait preuve d’une aisance naturelle à naviguer dans des contextes variés. Il est également un excellent communicant, toujours prêt à partager ses idées de manière claire et constructive, ce qui enrichit significativement les échanges au sein de l’équipe.",
+    name: "Abdoulaziz ABOUBAKAR",
+    title: "Data Scientist",
+    img: "/abdou.jpeg",
+  },
+  {
+    quote:
       "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
     name: "Vincent ZERBIB",
     title: "Web Developer Full Stack",
+    img: "/zerbib.jpeg",
   },
   {
     quote:
       "J’ai eu l’occasion de travailler avec Malick sur de nombreux projets lors de nos études. Il m’a marqué par sa rigueur et son enthousiasme. Il sait s’adapter à toutes situations et apprend vite.C’est une personne avec laquelle il est facile de collaborer, il sait exprimer ses idées et n’hésite pas à les partager. Il met un point d’honneur à délivrer du travail de qualité. Je recommande 👍",
     name: "Sven DOCKX",
     title: "Software Engineer",
-  },
-  {
-    quote:
-      "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
-    name: "Vincent ZERBIB",
-    title: "Web Developer Full Stack",
-  },
-  {
-    quote:
-      "J’ai eu l’occasion de travailler avec Malick sur de nombreux projets lors de nos études. Il m’a marqué par sa rigueur et son enthousiasme. Il sait s’adapter à toutes situations et apprend vite.C’est une personne avec laquelle il est facile de collaborer, il sait exprimer ses idées et n’hésite pas à les partager. Il met un point d’honneur à délivrer du travail de qualité. Je recommande 👍",
-    name: "Sven DOCKX",
-    title: "Software Engineer",
-  },
-  {
-    quote:
-      "J'ai eu la chance de suivre Malick Siguy NDIAYE durant sa formation. Sérieux, tenace, autonome, toujours partant pour relever de nouveaux défis, Malick ne lâche rien et va au bout des choses. Il apprend vite, s’adapte bien, et montre un vrai engagement dans ce qu’il entreprend. Je le recommande sans hésiter.",
-    name: "Vincent ZERBIB",
-    title: "Web Developer Full Stack",
+    img: "/sven.jpeg",
   },
 ];
 
